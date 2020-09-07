@@ -7,7 +7,7 @@ The RTC time is read after reboot an the time is used to calculate the necessary
 
 
 To use the DS3231 you have to install the Adafruit RTClib with the IDE Library Manager.
-
+Set board to LOLIN (WEMOS) D1 R2 & mini - This board has ESP12 4MB and definitions for D1 - D12 pins
 
 The temperature is measured with the DS3231 internal sensor and stored in internal flash memory of ESP12 (up to 4K is possible).
 
