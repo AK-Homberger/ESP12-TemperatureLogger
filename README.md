@@ -31,7 +31,7 @@ You can adjust the following lines in the code due to your needs:
 ![Wiring](https://github.com/AK-Homberger/ESP12-TemperatureLogger/blob/master/IMG_1364.jpg)
 
 ## Programming
-To program the ESP12 an external USB to serial adapter is necessary (3 Volt logic compatibel).
+To program the ESP12 an external USB to serial adapter is necessary (3 Volt logic compatibel). For logging the USB Serial adapter is not necessary.
 
 For programming you have to connect RX, TX and GND (connect RX to TX and TX to RX). Power for the ESP12 should come from battery.
 Switch FLASH switch to GND and press RST button. Then start upload in the IDE.
