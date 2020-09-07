@@ -1,13 +1,13 @@
 # ESP12 TemperatureLogger
-This is battery powered tempeature logger with RTC DS3231.
+This is battery powered tempeature logger with an ESP12 and DS3231 Real Time Clock.
 
-The logger is using the ESP12 (ESP8266) deep sleep function to save power.
-The internal wakup function of the ESP12 is used. The maximum sleep time is abut 3 hores due to internal limitations.
-The RTC is read after reboot an the time is used to calculate the nexessary next sleeptime.
+The logger is using the ESP12 (ESP8266 derivate) deep sleep function to save power.
+The internal wakeup function of the ESP12 is used. The maximum sleep time is about 3 hours due to internal limitations.
+The RTC time is read after reboot an the time is used to calculate the necessary next sleeptime.
 
-To use the DS3232 you have to install the Adafruit RTClib with the IDE Library Manager.
+To use the DS3231 you have to install the Adafruit RTClib with the IDE Library Manager.
 
-The temerature is measured with DS3231 internal sensor and stored in internal flash memory of ESP12 (up to 4K is possible).
+The temperature is measured with the DS3231 internal sensor and stored in internal flash memory of ESP12 (up to 4K is possible).
 
 One mesuring cycle takes only 50 ms. The used battery CR123a with 1500 mAh should work months/years.
 In deep sleep the ESP12 takes about 20 uA. During operation about 50 mA (with RF components disabled).
@@ -30,7 +30,7 @@ You can adjust the following lines in the code due to your needs:
 To program the ESP12 an external USB to serial adapter is necessary (3 Volt logic compatibel).
 
 For programming you have to connect RX, TX and GND (connect RX to TX and TX to RX). Power for the ESP12 should come from battery.
-Switch Programming switch to GND and press RST button. Then start upload in the IDE.
+Switch FLASH switch to GND and press RST button. Then start upload in the IDE.
 For normal operation Programm switch has to be open.
 
 # Time setting
