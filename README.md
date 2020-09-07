@@ -20,7 +20,7 @@ You can adjust the following lines in the code due to your needs:
 #define EepromSize 512      // > 500 entries of temperature storage (possible EepromSize up to 4096 for ESP12E)
 #define TIME_SET 0          // Set to 1 for time set of RTC (only first time and after DS3231 battery replacement)
 
-![Schematic](https://github.com/AK-Homberger/NMEA2000WifiGateway-with-ESP32/blob/master/Gateway%20Prototype.JPG)
+![Schematic](https://github.com/AK-Homberger/ESP12-TemperatureLogger/blob/master/ESP12TempLoggerRTC.png)
 
 # Programming
 To program the ESP12 an external USB to serial adapter is necessary (3 Volt logic compatibel).
