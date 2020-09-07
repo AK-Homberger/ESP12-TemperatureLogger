@@ -5,10 +5,6 @@ The logger is using the ESP12 deep sleep function to save power (connection betw
 The internal wake up function of the ESP12 is used. The maximum sleep time is about 3 hours due to internal limitations.
 The RTC time is read after reboot an the time is used to calculate the necessary next sleeptime.
 
-
-To use the DS3231 you have to install the Adafruit RTClib with the IDE Library Manager.
-Set board to LOLIN (WEMOS) D1 R2 & mini - This board has ESP12 4MB and definitions for D1 - D12 pins
-
 The temperature is measured with the DS3231 internal sensor and stored in internal flash memory of ESP12 (up to 4K is possible).
 
 One mesuring cycle takes only 50 ms. The used battery CR123a with 1500 mAh should work months/years.
@@ -31,7 +27,9 @@ You can adjust the following lines in the code due to your needs:
 ![Wiring](https://github.com/AK-Homberger/ESP12-TemperatureLogger/blob/master/IMG_1364.jpg)
 
 ## Programming
-To program the ESP12 an external USB to serial adapter is necessary (3 Volt logic compatibel). For logging the USB Serial adapter is not necessary.
+* To use the DS3231 you have to install the Adafruit RTClib with the IDE Library Manager.
+* Set board to LOLIN (WEMOS) D1 R2 & mini - This board has ESP12 4MB and definitions for D1 - D12 pins
+* To program the ESP12 an external USB to serial adapter is necessary (3 Volt logic compatibel). For logging the USB Serial adapter is not necessary.
 
 For programming you have to connect RX, TX and GND (connect RX to TX and TX to RX). Power for the ESP12 should come from battery.
 Switch FLASH switch to GND and press RST button. Then start upload in the IDE.
