@@ -1,4 +1,4 @@
-# ESP12 TemperatureLogger
+# ESP12 Temperature Logger
 This is battery powered tempeature logger with an ESP12 and DS3231 Real Time Clock.
 
 The logger is using the ESP12 (ESP8266 derivate) deep sleep function to save power.
