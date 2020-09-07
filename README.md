@@ -9,9 +9,9 @@ To use the DS3232 you have to install the Adafruit RTClib with the IDE Library M
 
 The temerature is measured with DS3231 internal sensor and stored in internal flash memory of ESP12 (up to 4K is possible).
 
-One mesuring cycle takes only 50 ms. The used battery CR123a with 1500 mAH should work months/years.
+One mesuring cycle takes only 50 ms. The used battery CR123a with 1500 mAh should work months/years.
 In deep sleep the ESP12 takes about 20 uA. During operation about 50 mA (with RF components disabled).
-During the measuring cycle the LED is on. The whol programm is in the setup() section of the code, loop() is empty.
+During the measuring cycle the LED is on. The whole programm is in the setup() section of the code, loop() is empty.
 
 You can adjust the following lines in the code due to your needs:
 
@@ -35,11 +35,11 @@ For normal operation Programm switch has to be open.
 
 # Time setting
 
-Just in case you are using a DS3231 for the first time, you have to set the current time to the device. You can either use one of the examples for the Adafruit RTClib or you can use the current logger program. Just set the TIME_SET constant to 1 and upload the sketch and Restart the ESP12. The change the constant back to 0 and upload again.
+Just in case you are using a DS3231 for the first time, you have to set the current time to the device. You can either use one of the examples for the Adafruit RTClib or you can use the current logger program. Just set the TIME_SET constant to 1 and upload the sketch and restart the ESP12. Then change the constant back to 0 and upload again.
 
 # Show data
 The serial adapter is also necessary to read the stored data.
-Switch selction switch to SHOW state (D6 to GND) and press RST button. The currently stored log date will be sent via the serial interfac to the USB Serial adapte and is shown on the PC. You can use the IDE Serial Monitor tool to show the data). Set the baud rate to 74880. This is the standard baud rate for ESP12 startup. 
+Switch selction switch to SHOW state (D6 to GND) and press RST button. The currently stored log data will be sent via the serial interface to the USB Serial adapter and is shown on the PC. You can use the IDE Serial Monitor tool to show the data. Set the baud rate to 74880. This is the standard baud rate for ESP12 startup. 
 You can show data at any time. The logging is not disturbed by showing the data. You can also set ENABLE_DEBUG_LOG to 1 to get additional information.
 
 16:24:48.968 -> Counter: 1 
@@ -57,6 +57,6 @@ You can show data at any time. The logging is not disturbed by showing the data.
 16:24:48.968 -> 
 
 # Reset log and start new logging
-To reset the internal counter and start a new log cycle switch selection switch to RESET state (D5 to GND) and press RST button. The LED will blink three times to show success. Then switch RESET back to (SHOW or neutral) depending on used switch type.
-The new log cycle will start aftre 10 seconds with a new wake up cycle.
+To reset the internal counter and start a new log cycle, switch selection switch to RESET state (D5 to GND) and press RST button. The LED will blink three times to show success. Then switch RESET back to (SHOW or neutral) depending on used switch type.
+The new log cycle will start after 10 seconds with a new wake up cycle.
 
