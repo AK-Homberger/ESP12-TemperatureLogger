@@ -3,7 +3,7 @@ This is a battery powered tempeature logger with an ESP12 (ESP8266 derivate) and
 
 The logger is using the ESP12 deep sleep function to save power (connection between GPIO16 and RST necessary).
 The internal wake up function of the ESP12 is used. The maximum sleep time is about 3 hours due to internal limitations.
-The RTC time is read after reboot an the time is used to calculate the necessary next sleeptime. The DS3231 (and the status LED) is powered from the GPIO pin D7. During Deep Sleep the DS3231 is using its own backup battery.
+The RTC time is read after reboot an the time is used to calculate the necessary next sleeptime. The DS3231 VCC pin (and the status LED) is powered from the GPIO pin D7. During Deep Sleep the DS3231 is using its own backup battery.
 
 The temperature is measured with the DS3231 internal sensor and stored in internal flash memory of ESP12 (up to 4K is possible).
 
