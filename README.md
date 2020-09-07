@@ -31,14 +31,14 @@ To program the ESP12 an external USB to serial adapter is necessary (3 Volt logi
 
 For programming you have to connect RX, TX and GND (connect RX to TX and TX to RX). Power for the ESP12 should come from battery.
 Switch FLASH switch to GND and press RST button. Then start upload in the IDE.
-For normal operation Programm switch has to be open.
+For normal operation FLASH switch has to be open.
 
 # Time setting
 
 Just in case you are using a DS3231 for the first time, you have to set the current time to the device. You can either use one of the examples for the Adafruit RTClib or you can use the current logger program. Just set the TIME_SET constant to 1 and upload the sketch and restart the ESP12. Then change the constant back to 0 and upload again.
 
 # Show data
-The serial adapter is also necessary to read the stored data.
+The USB Serial adapter is also necessary to read the stored data.
 Switch selction switch to SHOW state (D6 to GND) and press RST button. The currently stored log data will be sent via the serial interface to the USB Serial adapter and is shown on the PC. You can use the IDE Serial Monitor tool to show the data. Set the baud rate to 74880. This is the standard baud rate for ESP12 startup. 
 You can show data at any time. The logging is not disturbed by showing the data. You can also set ENABLE_DEBUG_LOG to 1 to get additional information.
 
@@ -57,6 +57,12 @@ You can show data at any time. The logging is not disturbed by showing the data.
 16:24:48.968 -> 
 
 # Reset log and start new logging
-To reset the internal counter and start a new log cycle, switch selection switch to RESET state (D5 to GND) and press RST button. The LED will blink three times to show success. Then switch RESET back to (SHOW or neutral) depending on used switch type.
+To reset the internal counter and start a new log cycle, switch selection switch to RESET state (D5 to GND) and press RST button. The LED will blink three times to show success. Then switch RESET back to (SHOW or neutral).
 The new log cycle will start after 10 seconds with a new wake up cycle.
+
+
+# Updates
+
+07.09.2020 - Version 1.0: Initial version.
+
 
