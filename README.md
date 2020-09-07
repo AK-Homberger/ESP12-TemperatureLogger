@@ -24,6 +24,8 @@ You can adjust the following lines in the code due to your needs:
 
 ![Box](https://github.com/AK-Homberger/ESP12-TemperatureLogger/blob/master/IMG_1369.jpg)
 
+![Wiring](https://github.com/AK-Homberger/ESP12-TemperatureLogger/blob/master/IMG_1364.jpg)
+
 # Programming
 To program the ESP12 an external USB to serial adapter is necessary (3 Volt logic compatibel).
 
