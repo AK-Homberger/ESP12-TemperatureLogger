@@ -46,6 +46,7 @@ The USB Serial adapter is also necessary to read the stored data.
 Switch selction switch to SHOW state (D6 to GND) and press RST button. The currently stored log data will be sent via the serial interface to the USB Serial adapter and is shown on the PC. You can use the IDE Serial Monitor tool to show the data. Set the baud rate to 74880. This is the standard baud rate for ESP12 startup. 
 You can show data at any time. The logging is not disturbed by showing the data. You can also set ENABLE_DEBUG_LOG to 1 to get additional information.
 
+```cpp
 16:24:48.968 -> Counter: 1 
 16:24:48.968 -> First Time:    Mon 2020-09-07 11:31:01 
 16:24:48.968 -> Now Time:      Mon 2020-09-07 16:23:59 
@@ -59,7 +60,7 @@ You can show data at any time. The logging is not disturbed by showing the data.
 16:24:48.968 -> Mon 2020-09-07 11:31:01 23.25°C 
 16:24:48.968 -> 
 16:24:48.968 -> 
-
+```
 ## Reset log and start new logging
 To reset the internal counter and start a new log cycle, switch selection switch to RESET state (D5 to GND) and press RST button. The LED will blink three times to show success. Then switch RESET back to (SHOW or neutral).
 The new log cycle will start after 10 seconds with a new wake up cycle.
