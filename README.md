@@ -41,7 +41,7 @@ Just in case you are using a DS3231 for the first time, you have to set the curr
 
 ## Show data
 The USB Serial adapter is also necessary to read the stored data.
-Switch selction switch to SHOW state (D6 to GND) and press RST button. The currently stored log data will be sent via the serial interface to the USB Serial adapter and is shown on the PC. You can use the IDE Serial Monitor tool to show the data. Set the baud rate to 74880. This is the standard baud rate for ESP12 startup. 
+Switch selection switch to SHOW state (D6 to GND) and press RST button. The currently stored log data will be sent via the serial interface to the USB Serial adapter and is shown on the PC. You can use the IDE Serial Monitor tool to show the data. Set the baud rate to 74880. This is the standard baud rate for ESP12 startup. 
 You can show data at any time. The logging is not disturbed by showing the data. You can also set ENABLE_DEBUG_LOG to 1 to get additional information.
 
 ```cpp
