@@ -8,7 +8,7 @@ The RTC time is read after reboot and the time is used to calculate the necessar
 The temperature is measured with the DS3231 internal sensor and stored in internal flash memory of ESP12 (up to 4KB is possible).
 
 One measuring cycle takes only 50 ms. The used battery CR123a with 1500 mAh should work for months/years.
-In deep sleep the ESP12 takes about 20 uA. During operation about 50 mA (with RF components disabled).
+In deep sleep the ESP12 takes about 20 µA. During operation about 50 mA (with RF components disabled).
 During the measuring cycle the LED is on. The whole programm is in the setup() section of the code, loop() is empty.
 
 You can adjust the following lines in the code due to your needs:
