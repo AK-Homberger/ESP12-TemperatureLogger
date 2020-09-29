@@ -63,6 +63,12 @@ You can show data at any time. The logging is not disturbed by showing the data.
 To reset the internal counter and start a new log cycle, switch selection switch to RESET state (D5 to GND) and press RST button. The LED will blink three times to show success. Then switch RESET back to (SHOW or neutral).
 The new log cycle will start after 10 seconds with a new wake up cycle.
 
+## Partlist:
+
+- Resistor 3,3KOhm [Link](https://www.reichelt.de/widerstand-kohleschicht-3-3-kohm-0207-250-mw-5--1-4w-3-3k-p1397.html?search=widerstand+250+mw+3k3) Other resistors are the same type!
+- Push button [Link](https://www.reichelt.de/miniatur-drucktaster-0-5a-24vac-1x-ein-rt-t-250a-rt-p31772.html?&trstct=pol_12&nbc=1)
+
+
 
 ## Updates
 
