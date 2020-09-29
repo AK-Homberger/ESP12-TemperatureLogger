@@ -66,7 +66,7 @@ The new log cycle will start after 10 seconds with a new wake up cycle.
 ## Partlist:
 
 - ESP12 [Link](https://www.reichelt.de/de/en/index.html?ACTION=446&LA=3&nbc=1&q=esp12)
-- Resistor 1 KOhm [Link](https://www.reichelt.de/de/en/carbon-film-resistor-1-4-w-5-1-0-kilo-ohms-1-4w-1-0k-p1315.html?&trstct=pos_1&nbc=1) Other resistors are the same type!
+- Resistor 1 KOhm [Link](https://www.reichelt.de/de/en/carbon-film-resistor-1-4-w-5-1-0-kilo-ohms-1-4w-1-0k-p1315.html?&trstct=pos_1&nbc=1)
 - Push button [Link](https://www.reichelt.de/miniatur-drucktaster-0-5a-24vac-1x-ein-rt-t-250a-rt-p31772.html?&trstct=pol_12&nbc=1)
 - 2 * Toggle switch [Link](https://www.reichelt.de/de/en/miniature-toggle-switch-1x-on-off-on-rnd-210-00448-p240580.html?GROUPID=7584&START=0&OFFSET=16&SID=96Xk5YJngRlij1C8dm7WFa8cc43c9fd0145a715a7ea5bf81fdb75&LANGUAGE=EN&&r=1)
 - Battery 123A [Link](https://www.reichelt.de/de/en/varta-photo-3-volt-1430-mah-17x34-5mm-varta-cr-123a-p7352.html?search=123a&&r=1)
