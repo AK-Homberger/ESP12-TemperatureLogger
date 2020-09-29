@@ -75,7 +75,7 @@ The new log cycle will start after 10 seconds with a new wake up cycle.
 - DS3231 [Link](https://www.reichelt.de/de/en/developer-boards-precision-real-time-clock-ds3231-debo-rtc-uhr2-p235506.html?&trstct=pos_1&nbc=1) or [Link](https://www.amazon.de/AZDelivery-RTC-Batterie-inklusive-Arduino/dp/B01M2B7HQB/ref=asc_df_B01M2B7HQB/?tag=googshopde-21&linkCode=df0&hvadid=310594507569&hvpos=&hvnetw=g&hvrand=7596897232631074358&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9043858&hvtargid=pla-378671262376&psc=1&th=1&psc=1&tag=&ref=&adgrpid=64737915114&hvpone=&hvptwo=&hvadid=310594507569&hvpos=&hvnetw=g&hvrand=7596897232631074358&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9043858&hvtargid=pla-378671262376)
 - CR1220 (for DS3231 from Reichelt) [Link](https://www.reichelt.de/de/en/index.html?ACTION=446&LA=3&nbc=1&q=cr1220)
 - Housing [Link](https://www.reichelt.de/de/en/small-plastic-housing-72-x-50-x-28-mm-geh-ks-28-p8160.html?GROUPID=7712&START=0&OFFSET=16&SID=96Xk5YJngRlij1C8dm7WFa8cc43c9fd0145a715a7ea5bf81fdb75&LANGUAGE=EN&&r=1)
-- FTDI USB Programming Adapter [Link](https://www.amazon.de/tinxi%C2%AE-FT232RL-Converter-Adapter-Arduino/dp/B01C2P9GD2/ref=sr_1_17?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FOANZTY2BP83&dchild=1&keywords=ftdi+usb+adapter&qid=1601370311&sprefix=ftdi%2Caps%2C186&sr=8-17)
+- USB Programming Adapter [Link](https://www.reichelt.de/de/en/raspberry-pi-usb-ttl-interface-converter-ch340g-debo-usb-ttl-p266106.html?&trstct=pol_4&nbc=1) or [Link](https://www.amazon.de/tinxi%C2%AE-FT232RL-Converter-Adapter-Arduino/dp/B01C2P9GD2/ref=sr_1_17?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FOANZTY2BP83&dchild=1&keywords=ftdi+usb+adapter&qid=1601370311&sprefix=ftdi%2Caps%2C186&sr=8-17)
 
 
 ## Updates
