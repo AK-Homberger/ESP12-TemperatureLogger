@@ -65,7 +65,7 @@ The new log cycle will start after 10 seconds with a new wake up cycle.
 
 ## Partlist:
 
-- Resistor 1 KOhm [Link](https://www.reichelt.de/widerstand-kohleschicht-3-3-kohm-0207-250-mw-5--1-4w-1-0k-p1397.html?search=widerstand+250+mw+3k3) Other resistors are the same type!
+- Resistor 1 KOhm [Link](https://www.reichelt.de/de/en/carbon-film-resistor-1-4-w-5-1-0-kilo-ohms-1-4w-1-0k-p1315.html?&trstct=pos_1&nbc=1) Other resistors are the same type!
 - Push button [Link](https://www.reichelt.de/miniatur-drucktaster-0-5a-24vac-1x-ein-rt-t-250a-rt-p31772.html?&trstct=pol_12&nbc=1)
 
 
