@@ -73,6 +73,7 @@ The new log cycle will start after 10 seconds with a new wake up cycle.
 - Battery holder [Link](https://www.reichelt.de/de/en/battery-holder-for-2-3a-cr-123--halter-2-3a-p44605.html?search=battery+holder+123&&r=1)
 - LED [Link](https://www.reichelt.de/de/en/led-3-mm-red-270-mcd-80--rnd-135-00118-p263789.html?&trstct=pos_10&nbc=1)
 - DS3231 [Link](https://www.reichelt.de/de/en/developer-boards-precision-real-time-clock-ds3231-debo-rtc-uhr2-p235506.html?&trstct=pos_1&nbc=1)
+- Housing [Link](https://www.reichelt.de/de/en/small-plastic-housing-72-x-50-x-28-mm-geh-ks-28-p8160.html?GROUPID=7712&START=0&OFFSET=16&SID=96Xk5YJngRlij1C8dm7WFa8cc43c9fd0145a715a7ea5bf81fdb75&LANGUAGE=EN&&r=1)
 
 
 
